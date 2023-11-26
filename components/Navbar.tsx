@@ -9,7 +9,7 @@ const links: NavLink[] = [
   { href: "/client", label: "client" },
   { href: "/drinks", label: "drinks" },
   { href: "/tasks", label: "tasks" },
-  { href: "/query", label: "query" },
+  { href: "/query", label: "React-Query" },
 ];
 
 const Navbar = () => {
