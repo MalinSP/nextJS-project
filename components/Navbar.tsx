@@ -8,8 +8,8 @@ interface NavLink {
 const links: NavLink[] = [
   { href: "/client", label: "client" },
   { href: "/drinks", label: "drinks" },
+  { href: "/prisma-example", label: "prisma" },
   { href: "/tasks", label: "tasks" },
-  { href: "/query", label: "React-Query" },
 ];
 
 const Navbar = () => {
