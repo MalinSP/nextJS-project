@@ -11,12 +11,14 @@ interface IEditPageProps {
 const EditTaskPage: React.FC<IEditPageProps> = async ({ params }) => {
   const task = await getTask(params.id);
   return (
-    <div className="mb-16">
-      <Link href="/tasks" className="btn btn-accent">
-        back to tasks
-      </Link>
+    <>
+      <div className="mb-16">
+        <Link href="/tasks" className="btn btn-accent">
+          back to tasks
+        </Link>
+      </div>
       <EditTask task={task} />
-    </div>
+    </>
   );
 };
 
